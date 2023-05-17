@@ -23,6 +23,10 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 
+	<mvc:resources location="/recursos/" mapping="/recursos/**"></mvc:resources>
+
+
+
 </beans>
 
 
